@@ -48,7 +48,7 @@
     'use strict';
 
     // Spotify API credentials
-    const CLIENT_ID = '43d52e81239b4c9a9d08a7566ad312fc';
+    const CLIENT_ID = 'TOKEN_HERE';
     const REDIRECT_URI = 'http://localhost:8080/callback';
     const SPOTIFY_AUTH_URL = 'https://accounts.spotify.com/authorize';
 
