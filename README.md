@@ -33,21 +33,6 @@ Save the Tampermonkey script.
 
 Now, when you visit the Google homepage, you should see the Spotify controls.
 
-Combining with Another Script
-If you want to combine this script with another Tampermonkey script, you can follow these steps:
-
-Open the other script you want to combine (custom-google-homepage.user.js in this example).
-
-Copy the entire script content.
-
-Open tampermonkey-script.js in your Spotify Controls project.
-
-Paste the copied content at the end of tampermonkey-script.js.
-
-Save the Tampermonkey script.
-
-Now, you should have both scripts running together.
-
 Spotify API Credentials
 To obtain your Spotify API credentials, follow these steps:
 
@@ -81,19 +66,6 @@ Paste the script
 Save the Tampermonkey script.
 
 Now, you should have both scripts running together.
-
-Spotify API Credentials
-To obtain your Spotify API credentials, follow these steps:
-
-Visit the Spotify Developer Dashboard.
-
-Log in with your Spotify account or create a new one.
-
-Click on "Create an App."
-
-Fill in the required information and click "Create."
-
-Once your app is created, copy your "Client ID" and "Client Secret" and add them to the .env file in your project.
 
 Credits
 [KeiraOMG0]
