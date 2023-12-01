@@ -23,11 +23,7 @@ cd Spotify-Google-script
 ```
 If you downloaded the zip, you need to unzip it first.
 
-3. Edit the `.env` file in the project root and add your Spotify API credentials.
-```bash
-CLIENT_ID=your_spotify_client_id
-CLIENT_SECRET=your_spotify_client_secret
-```
+3. Open `server.js` and replace the `CLIENT ID HERE` with your Spotify client ID, then replace `CLIENT SECRET HERE` with your Spotify client secret.
 
 4. Edit the `tampermonkey-script.js` file and replace `TOKEN_HERE` with your Spotify client ID.
 
