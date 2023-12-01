@@ -30,3 +30,7 @@ If you downloaded the zip, you need to unzip it first.
 5. Start the server. The server will run on http://localhost:8080.
 
 6. Open Tampermonkey and create a new script. Paste the contents of tampermonkey-script.js into the script editor and save it. Now, when you visit the Google homepage, you should see the Spotify controls!
+
+7. The custom-google-home-page.js is not required but it was used when develping the spotify + google script so if the buttons seem abit random.
+
+8. To install open Tampermonkey and create a new script. Paste the contents of custom-google-home-page.js into the script editor and save it. Now, when you visit the Google homepage, you should see the new buttons, guess the number game, and timer!
