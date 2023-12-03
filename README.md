@@ -8,6 +8,7 @@ Before using this script, make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
 - [Tampermonkey](https://www.tampermonkey.net/)
+-[Spotify Develper](https://developer.spotify.com/dashboard)
 
 ## Installation
 
@@ -25,7 +26,7 @@ If you downloaded the zip, you need to unzip it first.
 
 3. Open `server.js` and replace the `CLIENT ID HERE` with your Spotify client ID, then replace `CLIENT SECRET HERE` with your Spotify client secret.
 
-4. Edit the `tampermonkey-script.js` file and replace `TOKEN_HERE` with your Spotify client ID.
+4. Edit the `tampermonkey-script.js` file and replace `TOKEN_HERE` with your Spotify client ID. (To get the Spotify client id anmd Cleint secret go to the spotify develpoer, make a app and then you can copy them.You will need the "Web API"
 
 5. Start the server. The server will run on http://localhost:8080.
 
