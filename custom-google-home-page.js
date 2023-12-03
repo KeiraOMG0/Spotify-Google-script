@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Custom Google Homepage with Timer and Guess the Number
 // @namespace https://greasyfork.org/users/1129625
-// @version 3.2
+// @version 3.3
 // @description Customize the Google homepage by adding buttons, a color changer feature, social media buttons, a timer, and a Guess the Number game.
 // @include     https://www.google.com/
 // @exclude     https://www.google.com/search*
@@ -328,7 +328,7 @@
   var imagesButton = document.querySelector('a[href*="google.com/imghp"]');
   if (imagesButton) {
     // Replace the Images button with the Discord button
-    var discordButton = createButton('Discord', 'https://www.discord.com');
+    var discordButton = createButton('Discord', 'https://www.discord.com/app');
     imagesButton.parentNode.replaceChild(discordButton, imagesButton);
   }
 
