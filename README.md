@@ -8,7 +8,7 @@ Before using this script, make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
 - [Tampermonkey](https://www.tampermonkey.net/)
--[Spotify Develper](https://developer.spotify.com/dashboard)
+- [Spotify Develper](https://developer.spotify.com/dashboard)
 
 ## Installation
 
